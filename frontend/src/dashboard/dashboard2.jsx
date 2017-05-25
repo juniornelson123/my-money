@@ -24,7 +24,7 @@ export default class Dashboard extends Component{
 	render(){
 		return(
 			<div>
-				<ContentHeader title="Dashboard" small="Versão 1.0"/>
+				<ContentHeader title="Dashboard" small="Versão 2.0"/>
 				<Content>		
 					<Row>
 						<ValueBox cols="12 4" color="green" icon="bank" value={`R$ ${this.state.credit}`} text="Total de creditos"/>
